@@ -1,0 +1,14 @@
+# 素材フォルダ（公開したくない場合）
+Assets/
+
+# D×ライブラリ等の本体フォルダ
+DxLib_VC/
+
+x64/
+
+Sound/
+# Visual Studioの一時キャッシュや個人設定ファイル
+.vs/
+*.ipch
+*.sln
+*.vcxproj.user
