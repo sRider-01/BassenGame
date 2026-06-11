@@ -1,7 +1,7 @@
 #pragma once
-#include "SwingResult.h"
-#include "LatencyOverlay.h"
-#include "CharacterSelect.h"
+#include "../../Game/Swing/SwingResult.h"
+#include "../Overlay/LatencyOverlay.h"
+#include "../CharacterSelect/CharacterSelect.h"
 
 /// <summary>
 /// 打撃音を管理するクラス。

@@ -92,37 +92,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CharacterSelect.cpp" />
-    <ClCompile Include="HRItemBank.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Ball.cpp" />
-    <ClCompile Include="InputManager.cpp" />
-    <ClCompile Include="SaveData.cpp" />
-    <ClCompile Include="StartLevel.cpp" />
-    <ClCompile Include="SwingJudge.cpp" />
-    <ClCompile Include="AudioBank.cpp" />
-    <ClCompile Include="LatencyOverlay.cpp" />
-    <ClCompile Include="PitchMachine.cpp" />
-    <ClCompile Include="Collection.cpp" />
-    <ClCompile Include="HitCommentBank.cpp" />
-    <ClCompile Include="Player.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="CharacterSelect.h" />
-    <ClInclude Include="CharaTrait.h" />
-    <ClInclude Include="HRItemBank.h" />
-    <ClInclude Include="InputManager.h" />
-    <ClInclude Include="StartLevel.h" />
-    <ClInclude Include="SwingJudge.h" />
-    <ClInclude Include="AudioBank.h" />
-    <ClInclude Include="LatencyOverlay.h" />
-    <ClInclude Include="SwingResult.h" />
-    <ClInclude Include="PitchMachine.h" />
-    <ClInclude Include="Collection.h" />
-    <ClInclude Include="HitCommentBank.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="SaveData.h" />
+    <ClCompile Include="Game\Level\StartLevel.cpp" />
+    <ClCompile Include="Game\Pitch\Ball.cpp" />
+    <ClCompile Include="Game\Pitch\PitchMachine.cpp" />
+    <ClCompile Include="Game\Player\Player.cpp" />
+    <ClCompile Include="Game\Swing\SwingJudge.cpp" />
+    <ClCompile Include="System\Audio\AudioBank.cpp" />
+    <ClCompile Include="System\CharacterSelect\CharacterSelect.cpp" />
+    <ClCompile Include="System\Collection\Collection.cpp" />
+    <ClCompile Include="System\HRItem\HRItemBank.cpp" />
+    <ClCompile Include="System\InGameComment\HitCommentBank.cpp" />
+    <ClCompile Include="System\InputManager\InputManager.cpp" />
+    <ClCompile Include="System\Overlay\LatencyOverlay.cpp" />
+    <ClCompile Include="System\SaveData\SaveData.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

@@ -1,6 +1,6 @@
 #include "DxLib.h"
 #include "Ball.h"
-#include "InputManager.h"
+#include "../../System/InputManager/InputManager.h"
 #include <cmath>
 #include <algorithm>
 #include <cstdlib>  // rand()

@@ -1,5 +1,5 @@
 #pragma once
-#include "SwingResult.h"
+#include "../Swing/SwingResult.h"
 #include <deque>
 
 /// <summary>

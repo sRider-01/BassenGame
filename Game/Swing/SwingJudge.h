@@ -1,6 +1,6 @@
 #pragma once
 #include "SwingResult.h"
-#include "Ball.h"
+#include "../Pitch/Ball.h"
 
 /// <summary>
 /// スイングのタイミング判定と打球角度の計算を行うクラス。

@@ -1,7 +1,7 @@
 #pragma once
-#include "SwingResult.h"
-#include "HRItemBank.h"
-#include "SaveData.h"
+#include "../../Game/Swing/SwingResult.h"
+#include "../HRItem/HRItemBank.h"
+#include "../SaveData/SaveData.h"
 #include <vector>
 
 class Collection
